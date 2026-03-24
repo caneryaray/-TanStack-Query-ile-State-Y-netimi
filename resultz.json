@@ -1,0 +1,120 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 9,
+  "numPassedTests": 8,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1774367853169,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxe QueryClientProvider eklenmiş",
+          "status": "passed",
+          "title": "App.jsxe QueryClientProvider eklenmiş",
+          "duration": 35,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " SideBar componentinde useEffect kaldırılmış",
+          "status": "passed",
+          "title": "SideBar componentinde useEffect kaldırılmış",
+          "duration": 5,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Contact componentinde useEffect kaldırılmış",
+          "status": "passed",
+          "title": "Contact componentinde useEffect kaldırılmış",
+          "duration": 15,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Contactlar listeleniyor",
+          "status": "passed",
+          "title": "Contactlar listeleniyor",
+          "duration": 9,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " New Butonu Çalışıyor",
+          "status": "passed",
+          "title": "New Butonu Çalışıyor",
+          "duration": 93,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni kullanıcı kayıt ediliyor",
+          "status": "passed",
+          "title": "Yeni kullanıcı kayıt ediliyor",
+          "duration": 644,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Home Butonu Çalışıyor",
+          "status": "passed",
+          "title": "Home Butonu Çalışıyor",
+          "duration": 57,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kullanıcı detaylarını gösteriyor",
+          "status": "passed",
+          "title": "Kullanıcı detaylarını gösteriyor",
+          "duration": 48,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kullanıcıyı siliyor",
+          "status": "failed",
+          "title": "Kullanıcıyı siliyor",
+          "duration": 1096,
+          "failureMessages": [
+            "Unable to find an element with the text: (content, element) => content.includes(\"Welcome to WiTech Contacts\"). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<ul>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/3\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mHarriet Wisozk IV\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mVeum\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/6\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mMrs. Adrienne Rempel Jr.\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mBosco\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/8\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mInez Raynor\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mToy\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/9\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mJames Schumm\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mWeimann\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/10\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mClaudia Auer\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mPredovic\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/11\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mEmre\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mSahiner\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n        \u001b[36m</ul>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<img\u001b[39m\n            \u001b[33msrc\u001b[39m=\u001b[32m\"https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1177.jpg\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<h1\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"full_name\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mMrs. Adrienne Rempel Jr.\u001b[0m\n            \u001b[0m \u001b[0m\n            \u001b[0mBosco\u001b[0m\n            \u001b[0m \u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mThe beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients\u001b[0m\n          \u001b[36m</p>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<button\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"delete\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mDelete\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<ul>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/3\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mHarriet Wisozk IV\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mVeum\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/6\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mMrs. Adrienne Rempel Jr.\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mBosco\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/8\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mInez Raynor\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mToy\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/9\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mJames Schumm\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mWeimann\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/10\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mClaudia Auer\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mPredovic\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/11\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mEmre\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mSahiner\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n        \u001b[36m</ul>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<img\u001b[39m\n            \u001b[33msrc\u001b[39m=\u001b[32m\"https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1177.jpg\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<h1\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"full_name\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mMrs. Adrienne Rempel Jr.\u001b[0m\n            \u001b[0m \u001b[0m\n            \u001b[0mBosco\u001b[0m\n            \u001b[0m \u001b[0m\n          \u001b[36m</h1>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mThe beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients\u001b[0m\n          \u001b[36m</p>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<button\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"delete\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mDelete\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        }
+      ],
+      "startTime": 1774367854687,
+      "endTime": 1774367856691,
+      "status": "failed",
+      "message": "",
+      "name": "C:/Users/Acer/Desktop/vitejs-vite-8hrylz/src/__tests__/index.test.jsx"
+    }
+  ]
+}
